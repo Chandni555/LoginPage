@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if($_SESSION["name"]==""){
-    header("Location:http://localhost/Testing/three.php");
+    header("Location:http://localhost/Testing/index.php");
 
 }
 ?>
